@@ -1,0 +1,26 @@
+.title{
+    font-family: Roboto;
+    font-weight: 60px;
+    font-size: 20px;
+}
+
+.tv_show_list_item{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    width: 100vw - 25px;
+    overflow-x: auto;
+    padding-bottom: 30px;
+    &::hover{
+        overflow-x: overlay;
+    }
+}
